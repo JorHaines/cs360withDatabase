@@ -69,15 +69,75 @@
               required>
             </ion-input>
           </ion-item>
-  
+
           <ion-item class="ion-margin-vertical">
             <ion-textarea 
-              label="Description" 
+              label="Date" 
+              labelPlacement="stacked" 
+              type="date"
+              name="date"
+              placeholder="Enter the date" 
+              [(ngModel)]="model.date"
+              required>
+            </ion-textarea>
+          </ion-item>
+
+          <ion-item class="ion-margin-vertical">
+            <ion-textarea 
+              label="Tractor" 
               labelPlacement="stacked" 
               type="text" 
-              name="description"
-              placeholder="Enter the description" 
-              [(ngModel)]="model.description"
+              name="tractors"
+              placeholder="Enter the tractors" 
+              [(ngModel)]="model.tractor"
+              required>
+            </ion-textarea>
+          </ion-item>
+
+          <ion-item class="ion-margin-vertical">
+            <ion-textarea 
+              label="Trailor" 
+              labelPlacement="stacked" 
+              type="text" 
+              name="trailor"
+              placeholder="Enter the trailors" 
+              [(ngModel)]="model.trailor"
+              required>
+            </ion-textarea>
+          </ion-item>
+
+          <ion-item class="ion-margin-vertical">
+            <ion-textarea 
+              label="Solo" 
+              labelPlacement="stacked" 
+              type="text" 
+              name="solo"
+              placeholder="Enter the solos" 
+              [(ngModel)]="model.solo"
+              required>
+            </ion-textarea>
+          </ion-item>
+
+          <ion-item class="ion-margin-vertical">
+            <ion-textarea 
+              label="Truck" 
+              labelPlacement="stacked" 
+              type="text" 
+              name="truck"
+              placeholder="Enter the trucks" 
+              [(ngModel)]="model.truck"
+              required>
+            </ion-textarea>
+          </ion-item>
+
+          <ion-item class="ion-margin-vertical">
+            <ion-textarea 
+              label="Special" 
+              labelPlacement="stacked" 
+              type="text" 
+              name="special"
+              placeholder="Enter the special vehicles" 
+              [(ngModel)]="model.special"
               required>
             </ion-textarea>
           </ion-item>
